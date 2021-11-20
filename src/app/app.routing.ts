@@ -1,6 +1,5 @@
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { MapContainerComponent } from './modules/map-container/components/map-container/map-container.component';
 import { ErrorNotFoundComponent } from './shared/components/error-not-found/error-not-found.component';
 
 export const routes: Routes = [
