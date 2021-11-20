@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { CountryEnum } from '../../enums/country.enum';
 
 @Component({
@@ -10,6 +11,7 @@ import { CountryEnum } from '../../enums/country.enum';
 export class MainHeaderComponent implements OnInit {
 
   Countries = CountryEnum;
+  faCaretDown = faCaretDown;
 
   constructor() { }
 

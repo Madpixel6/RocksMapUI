@@ -10,10 +10,8 @@
           <div class="header-search-select-item">
               <select data-placeholder="All Categories" class="chosen-select" style="display: none;">
                   <option>All Categories</option>
-                  <option>Shops</option>
-                  <option>Hotels</option>
-                  <option>Restaurants</option>
-                  <option>Fitness</option>
+                  <option>Rocks</option>
+                  <option>Climbers</option>
                   <option>Events</option>
               </select><div class="nice-select chosen-select" tabindex="0"><span class="current">All Categories</span><div class="nice-select-search-box"><input type="text" class="nice-select-search" placeholder="Search..."></div><ul class="list"><li data-value="All Categories" class="option selected">All Categories</li><li data-value="Shops" class="option">Shops</li><li data-value="Hotels" class="option">Hotels</li><li data-value="Restaurants" class="option">Restaurants</li><li data-value="Fitness" class="option">Fitness</li><li data-value="Events" class="option">Events</li></ul></div>
           </div>
@@ -28,31 +26,26 @@
               <span></span><span></span><span></span>
           </div>
       </div>
-      <!-- nav-button-wrap end-->
-      <!--  navigation -->
+      <!-- navigation-->
       <div class="nav-holder main-menu">
           <nav>
               <ul>
                   <li>
-                      <a href="#" class="act-link">Map <i class="fa fa-caret-down"></i></a>
-                      <!--second level -->
+                      <a href="#" class="act-link">Map <fa-icon [icon]="faCaretDown"></fa-icon></a>
                       <ul>
                           <li><a [routerLink]="['/map', Countries.Poland]">Poland's map</a></li>
                           <li><a [routerLink]="['/map', Countries.All]">World map</a></li>
                       </ul>
-                      <!--second level end-->
                   </li>
                   <li>
                     <a href="placeholder.html">Climber</a>
                   </li>
                   <li>
-                      <a href="#">Forum <i class="fa fa-caret-down"></i></a>
-                      <!--second level -->
+                      <a href="#">Forum <fa-icon [icon]="faCaretDown"></fa-icon></a>
                       <ul>
                           <li><a href="placeholder.html">Placeholder 1</a></li>
                           <li><a href="placeholder.html">Placeholder 2</a></li>
                       </ul>
-                      <!--second level end-->
                   </li>
                   <li>
                       <a href="placeholder.html">News</a>
@@ -61,6 +54,5 @@
               </ul>
           </nav>
       </div>
-      <!-- navigation  end -->
   </div>
 </header>
