@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 960,
+        "Name": "Słoneczne skały",
+        "Description": "Skały przy południowej części zamku. Można podejść bezpośrednio pod skały ulicą Karlińskiego."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2708939, 50.7473491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 1219,
+        "Name": "Przy zamku",
+        "Description": "Zbudowane z wapieni skały znajdują się na terenie otwartym, na wzniesieniu wzgórza zamkowego. Zostały włączone w system murów obronnych Zamku w Olsztynie."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2755046, 50.7488765]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 1157,
+        "Name": "Szafa",
+        "Description": "Skała położona na południe od Dziewicy i Biblioteki. Dobrze widoczna z okolic Zamku."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2821807, 50.7467576]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 9,
+        "Name": "Biblioteka",
+        "Description": "Skała położona kilkadziesiąt metrów na południowy-zachód od Dziewicy, dobrze widoczna z okolic zamku."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2821525, 50.7471361]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 1160,
+        "Name": "Dziewica",
+        "Description": "Skały położone na wschód od Zamku w Olsztynie. Oferują dużą ilośc dróg w dolnych przedziałach skali trudności."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2835674, 50.7477802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 1693,
+        "Name": "Owczy grzbiet",
+        "Description": "Dobrze osłonięta przed słońcem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2840984, 50.7478990]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 1717,
+        "Name": "Grzybki",
+        "Description": "Niewielka skała na szczycie Góry Lipówki."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2707518, 50.7413799]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 137,
+        "Name": "Płetwa",
+        "Description": "Wolnostojąca skała zaraz przy ścieżce prowadzącej dnem doliny."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2719212, 50.7416192]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 1133,
+        "Name": "Biakło",
+        "Description": "Wznosząca się nad Olsztynem koło Częstochowy na wysokość 340 m n.p.m."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2716302, 50.7379392]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 657,
+        "Name": "Mnich",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2723611, 50.7382235]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationId": 653,
+        "Name": "Garb",
+        "Description": "Skała leżąca u podnóża skały Biakło."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.2712842, 50.7383907]
+      }
+    }
+  ]
+}
